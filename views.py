@@ -19,6 +19,6 @@ def creator():
 def information():
     return render_template("information.html")
 
-@views.route("/survey")
-def survey():
-    return render_template("survey.html")
+@views.route("/learn")
+def learn():
+    return render_template("learn.html")
