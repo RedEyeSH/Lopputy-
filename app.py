@@ -1,3 +1,5 @@
+# Run this app.py code while trying my code 
+# and do not run any of html file because it is working only in this file!
 from flask import Flask
 from views import views  
 

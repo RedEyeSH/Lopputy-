@@ -7,10 +7,6 @@ views = Blueprint(__name__, "views")
 def home():
     return render_template("index.html")
 
-@views.route("/page1", methods=['GET', 'POST'])
-def page1():
-    return render_template("submission.html")
-
 @views.route("/creator")
 def creator():
     return render_template("creator.html")
